@@ -1,0 +1,64 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introducción",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "link",
+        "label": "Instalación",
+        "href": "/docs/installation",
+        "docId": "installation"
+      },
+      {
+        "type": "link",
+        "label": "Laravel",
+        "href": "/docs/laravel",
+        "docId": "laravel"
+      },
+      {
+        "type": "link",
+        "label": "Github",
+        "href": "/docs/github",
+        "docId": "github"
+      }
+    ]
+  },
+  "docs": {
+    "github": {
+      "id": "github",
+      "title": "Github",
+      "description": "1. Crea un repositorio en GitHub si aún no lo has hecho. Ve a la página principal de GitHub, inicia sesión en tu cuenta y haz clic en el botón \"New repository\" (Nuevo repositorio) para crear uno.",
+      "sidebar": "tutorialSidebar"
+    },
+    "installation": {
+      "id": "installation",
+      "title": "Instalación",
+      "description": "Para comenzar, sigue estos pasos para instalar las últimas versiones de las siguientes herramientas y programas:",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Introducción",
+      "description": "Código limpio",
+      "sidebar": "tutorialSidebar"
+    },
+    "laravel": {
+      "id": "laravel",
+      "title": "Laravel",
+      "description": "1.  Crear un nuevo proyecto de Laravel",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

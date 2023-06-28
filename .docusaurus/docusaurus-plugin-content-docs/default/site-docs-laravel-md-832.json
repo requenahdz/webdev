@@ -1,0 +1,27 @@
+{
+  "unversionedId": "laravel",
+  "id": "laravel",
+  "title": "Laravel",
+  "description": "1.  Crear un nuevo proyecto de Laravel",
+  "source": "@site/docs/laravel.md",
+  "sourceDirName": ".",
+  "slug": "/laravel",
+  "permalink": "/docs/laravel",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/laravel.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Instalación",
+    "permalink": "/docs/installation"
+  },
+  "next": {
+    "title": "Github",
+    "permalink": "/docs/github"
+  }
+}
